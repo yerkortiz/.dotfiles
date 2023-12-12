@@ -12,3 +12,4 @@ lspconfig.lua_ls.setup{
 
 lspconfig.gopls.setup({})
 lspconfig.clangd.setup({})
+lspconfig.texlab.setup({})

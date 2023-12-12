@@ -53,3 +53,7 @@ cmp.setup({
 })
 
 require('telescope').setup({})
+
+--require('vimtex').setup({})
+
+require('toggleterm').setup({})

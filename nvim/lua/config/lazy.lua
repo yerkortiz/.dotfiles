@@ -60,6 +60,8 @@ local plenary = "nvim-lua/plenary.nvim"
 
 local telescope = "nvim-telescope/telescope.nvim"
 
+local toggleterm = "akinsho/toggleterm.nvim"
+
 require("lazy").setup({
     tokyonight,
     treesitter,
@@ -75,6 +77,7 @@ require("lazy").setup({
     cmp_luasnip,
     plenary,
     telescope,
+    toggleterm,
 })
 
 
